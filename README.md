@@ -3,7 +3,7 @@
 This repository contains three supervised machine learning projects exploring classification using:
 
 * Decision Trees on a car purchasing dataset
-* Ensemble methods (Random Forest, Bagging with SVC) on an online gaming behavior dataset
+* Random Forest and Bagging with SVC on an online gaming behavior dataset
 * SVC and Random Forest on a crab age prediction dataset
 
 Each project includes feature engineering, model training, hyperparameter tuning using GridSearchCV, model evaluation, and visualization.

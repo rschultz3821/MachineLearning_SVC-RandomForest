@@ -56,8 +56,11 @@ Feature importance visualization for Random Forest
 ![image](https://github.com/user-attachments/assets/def46838-94c5-4f27-808f-897fd47739c1)
 
 Both models perform very similarly on the test set, with Random Forest slightly outperforming SVC (Bagging) by ~0.1%. These are high accuracy scores, indicating that both models are well-suited to the task. OOB accuracy of 1.000 for both models is unusually high and likely indicates:
+
 *Overfitting: The models may have memorized the training data.
+
 *Small dataset: If the dataset is very small, OOB samples might not be representative.
+
 *Data leakage: Information from the test set or labels may have inadvertently influenced training.
 
 ### 3. Crab Sex Prediction
